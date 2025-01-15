@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 import '../styles/Details.css'
 

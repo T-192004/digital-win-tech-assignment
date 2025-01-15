@@ -1,0 +1,226 @@
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    background-color: #1A1A1A;
+    align-items: center;
+}
+.description-section{
+    width: 90%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description-section img{
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+.description-details{
+    max-width: 50%;
+    color: #fffdfd;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.description-details p{
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.description-details h1{
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.description-details button{
+    color: #fff;
+    background-color: #D31A42;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.projects-section{
+    padding: 40px;
+    font-family:  sans-serif;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.projects-section h2{
+    color: #fffdfd;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.projects-section h1{
+    color: #fffdfd;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.arrow-icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 100px;
+    margin-bottom: 10px;
+}
+  
+.arrow-icon {
+    font-size: 2rem;
+    color: #fbf2f2;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.arrow-icon:hover {
+  transform: scale(1.2);
+}
+
+.projects-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 20;
+  max-width: 90%;
+}
+
+.projects-card {
+  width: 350px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.projects-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+  
+.operate-section{
+    width: 70%;
+    background-color: #2B2829;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Ensures all items align at the top */
+    gap: 20px; 
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+.operate-section img{
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+.operate-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 20px 0px 20px;
+    font-family: sans-serif;
+    pad: 0px;
+    color: #fff;
+}
+.operate-details h2{
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.operate-details p{
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+.operate-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap onto new lines */
+    gap: 20px; /* Adds consistent spacing between cards */
+    padding: 0;
+    
+    list-style: none;
+}
+
+.operate-card {
+    padding: 16px;
+    width: 200px; 
+    height: auto;
+    background-color: #FAFAFA;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Centers content in the card */
+}
+
+.operate-card img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.operate-card h2 {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.operate-card p {
+    color: #3a3939;
+    font-size: 0.8em;
+    font-weight: 400;
+    margin: 0;
+}
+.grow-section{
+    padding: 40px;
+    min-height: 90vh;
+}
+.grow-section h1{
+    color: #FAFAFA;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.grow-section h2{
+    color: #D31A42;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.growth-card-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.growth-card{
+    margin: 20px;
+    width: 350px;
+    height: 400px;
+}  
+.growth-card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 9px;
+}
+.growth-card h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.growth-card p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+}

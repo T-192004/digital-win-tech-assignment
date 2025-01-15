@@ -1,0 +1,15 @@
+.app{
+  background-color: #000;
+  background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blank{
+  background-color: #1A1A1A;
+  height: 240px;
+  width: 88%;
+}

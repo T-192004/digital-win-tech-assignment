@@ -1,0 +1,88 @@
+/* Ensure the dropdown width matches the container's width */
+.dropdown {
+    position: absolute;
+    top: 50px; /* Adjust this as needed */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    display: none; /* Hide by default */
+    width: calc(100% - 60px); /* Adjusting to match the width minus padding */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Show dropdown on hover */
+  .menu a:hover .dropdown {
+    display: block; /* Show on hover */
+  }
+  /* Ensure the dropdown is positioned properly and takes full width */
+.dropdown {
+    position: absolute;
+    top: 50px; /* Adjust this as needed */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    display: none; /* Hidden by default */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Show dropdown when hovered */
+  .menu a:hover .dropdown {
+    display: block;
+    width: 100%;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  .services-container ul {
+    list-style: none;
+    padding: 0;
+    width: 18%; /* Each service section width */
+  }
+  
+  .services-container ul h1 {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .services-container ul li {
+    color: #555;
+    padding: 5px 0;
+  }
+  
+  /* Container for the services inside dropdown */
+  .services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  /* Styles for each service section */
+  .services-container ul {
+    list-style: none;
+    padding: 0;
+    width: 18%; /* Each service column width */
+  }
+  
+  .services-container ul h1 {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .services-container ul li {
+    color: #555;
+    padding: 5px 0;
+  }
+  

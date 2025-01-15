@@ -1,12 +1,16 @@
-Project Overview
+# Project Live URL : 
+https://digital-win-tech-assignment.vercel.app/
+
+
+# Project Overview
 This project is a web application built using React.js. It includes several sections, such as a Hero Section, Details Section, Profile Section, and Footer, each of which has unique functionality and layout. The goal of this project is to create a simple interactive webpage that allows users to navigate through different sections with smooth scrolling behavior.
 
-Features:
+# Features:
 Hero Section: Displays a catchy introduction to the page.
 Details Section: Provides more detailed information about the services.
 Profile Section: Displays profiles of team members and clients with a smooth scroll feature.
 Footer: Contains basic footer information.
-Tech Stack
+# Tech Stack
 React: JavaScript library used for building the user interface.
 CSS: For styling the page with custom styles.
 
